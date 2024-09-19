@@ -1,0 +1,18 @@
+{
+  "name": "Rocketnotes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "author": "Bruno Lelis",
+  "license": "ISC",
+  "description": "Api developed in the explorer program at Rocketseat",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.5"
+  }
+}
