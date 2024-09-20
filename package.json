@@ -10,7 +10,10 @@
   "license": "ISC",
   "description": "Api developed in the explorer program at Rocketseat",
   "dependencies": {
-    "express": "^4.21.0"
+    "express": "^4.21.0",
+    "express-async-errors": "^3.1.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "nodemon": "^3.1.5"
