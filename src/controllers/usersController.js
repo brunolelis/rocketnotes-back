@@ -16,7 +16,8 @@ class UsersController {
 
     const hashedPassword = await hash(password, 8)
 
-    await database.run("INSERT INTO users (name, email, password) VALUES (?, ?, ?)",
+    await database.run(
+      "INSERT INTO users (name, email, password) VALUES (?, ?, ?)",
       [name, email, hashedPassword]
     )
 
